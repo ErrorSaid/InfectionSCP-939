@@ -11,7 +11,7 @@ namespace Infection_SCP_939
         {
             Timing.CallDelayed(Main.singleton.Config.Delay, () =>
             {
-                if (ev.Killer.Role != RoleType.Scp93953)
+                if (ev.Killer.Role == RoleType.Scp93953)
                 {
                     ev.Target.SetRole(RoleType.Scp93953);
                 }
