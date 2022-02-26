@@ -13,7 +13,7 @@ namespace Infection_SCP_939
             {
                 if (ev.Killer.Role == RoleType.Scp93953)
                 {
-                    ev.Target.SetRole(RoleType.Scp93953);
+                    ev.Target.SetRole(RoleType.Scp93953, lite: true);
                 }
             });
         }
